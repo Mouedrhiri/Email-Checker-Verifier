@@ -6,8 +6,8 @@ def progress(listofmessages):
         sleep(.1)
 
 mail = imaplib.IMAP4_SSL('imap.gmail.com',993)
-address = 'uness6.test@gmail.com'
-mypassword = 'lgxnotewin8'
+address = 'email@gmail.com'
+mypassword = 'password'
 mail.login(address, mypassword)
 def Inbox():
     mail.select('Inbox')
